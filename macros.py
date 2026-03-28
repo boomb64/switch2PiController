@@ -35,6 +35,9 @@ def bench_sit(switch):
             # Straight down angle
             switch.move_stick(128, 255, duration=0.20)
             switch.press('A', wait=0.8)
+            switch.press('A', wait=0.8)
+            switch.press('A', wait=0.8)
+            switch.press('A', wait=0.8)
             switch.press('A')
             time.sleep(5.5)
             resetCounters+=1
